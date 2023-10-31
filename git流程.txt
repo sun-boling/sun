@@ -1,0 +1,139 @@
+SHA256:facXn9yidu5BJ1AiHJYCl9zAj/oH+B2yFktnXtysGQc  密钥
+ASUS@LAPTOP-VI61VAH9 MINGW64 ~/Desktop/1030
+$ git init
+Initialized empty Git repository in C:/Users/ASUS/Desktop/1030/.git/
+
+ASUS@LAPTOP-VI61VAH9 MINGW64 ~/Desktop/1030 (master)
+$ git add  .
+
+ASUS@LAPTOP-VI61VAH9 MINGW64 ~/Desktop/1030 (master)
+$ git commit -m "demo"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'ASUS@LAPTOP-VI61VAH9.(none)')
+
+ASUS@LAPTOP-VI61VAH9 MINGW64 ~/Desktop/1030 (master)
+$ git config --global user.e-mail 17631559346@163.com
+
+ASUS@LAPTOP-VI61VAH9 MINGW64 ~/Desktop/1030 (master)
+$ git config --global user.name sun-boling
+
+ASUS@LAPTOP-VI61VAH9 MINGW64 ~/Desktop/1030 (master)
+$ git commit -m "demo"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'ASUS@LAPTOP-VI61VAH9.(none)')
+
+ASUS@LAPTOP-VI61VAH9 MINGW64 ~/Desktop/1030 (master)
+$ git remote add origin "cangkudizhi"
+
+ASUS@LAPTOP-VI61VAH9 MINGW64 ~/Desktop/1030 (master)
+$ git push -u origin master
+error: src refspec master does not match any
+error: failed to push some refs to 'cangkudizhi'
+ASUS@LAPTOP-VI61VAH9 MINGW64 ~/Desktop/1030 (master)
+$ ssh-keygen -t rsa -C 17631559346@163.com
+Generating public/private rsa key pair.
+Enter file in which to save the key (/c/Users/ASUS/.ssh/id_rsa):
+Created directory '/c/Users/ASUS/.ssh'.
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in /c/Users/ASUS/.ssh/id_rsa
+Your public key has been saved in /c/Users/ASUS/.ssh/id_rsa.pub
+The key fingerprint is:
+SHA256:facXn9yidu5BJ1AiHJYCl9zAj/oH+B2yFktnXtysGQc 17631559346@163.com
+The key's randomart image is:
++---[RSA 3072]----+
+|      .+o=+o. .  |
+|       .=.+. o   |
+|         +  .    |
+|        ... E.   |
+|       oS ...+= .|
+|      o = +.++==o|
+|       + @ o.=+oo|
+|        * + +o.o |
+|       . . ..+o  |
++----[SHA256]-----+
+
+ASUS@LAPTOP-VI61VAH9 MINGW64 ~/Desktop/1030 (master)
+$ git init
+Reinitialized existing Git repository in C:/Users/ASUS/Desktop/1030/.git/
+
+ASUS@LAPTOP-VI61VAH9 MINGW64 ~/Desktop/1030 (master)
+$ git add .
+
+ASUS@LAPTOP-VI61VAH9 MINGW64 ~/Desktop/1030 (master)
+$ git commit -m 'demo'
+[master (root-commit) befa767] demo
+ 1 file changed, 55 insertions(+)
+ create mode 100644 login.py
+
+ASUS@LAPTOP-VI61VAH9 MINGW64 ~/Desktop/1030 (master)
+$ git remote add origin
+usage: git remote add [<options>] <name> <url>
+
+    -f, --fetch           fetch the remote branches
+    --tags                import all tags and associated objects when fetching
+                          or do not fetch any tag at all (--no-tags)
+    -t, --track <branch>  branch(es) to track
+    -m, --master <branch> master branch
+    --mirror[=(push|fetch)]
+                          set up remote as a mirror to push to or fetch from
+
+
+ASUS@LAPTOP-VI61VAH9 MINGW64 ~/Desktop/1030 (master)
+$ git remote add origin git@github.com:sun-boling/sun.git
+error: remote origin already exists.
+
+ASUS@LAPTOP-VI61VAH9 MINGW64 ~/Desktop/1030 (master)
+$ git remote add origin master
+error: remote origin already exists.
+
+ASUS@LAPTOP-VI61VAH9 MINGW64 ~/Desktop/1030 (master)
+$ git remote add origin "git@github.com:sun-boling/sun.git"
+error: remote origin already exists.
+
+ASUS@LAPTOP-VI61VAH9 MINGW64 ~/Desktop/1030 (master)
+$ git remote rm origin
+
+ASUS@LAPTOP-VI61VAH9 MINGW64 ~/Desktop/1030 (master)
+$ git remote add origin "git@github.com:sun-boling/sun.git"
+
+ASUS@LAPTOP-VI61VAH9 MINGW64 ~/Desktop/1030 (master)
+$ git push origin master
+The authenticity of host 'github.com (::1)' can't be established.
+ED25519 key fingerprint is SHA256:+DiY3wvvV6TuJJhbpZisF/zLDA0zPMSvHdkr4UvCOqU.
+This key is not known by any other names.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 868 bytes | 868.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To github.com:sun-boling/sun.git
+ * [new branch]      master -> master
+
+
+
