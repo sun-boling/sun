@@ -1,0 +1,26 @@
+2023-11-10 17:32:40,008 - root - ERROR - error，一般用来打印一些错误信息-test_case_01
+2023-11-10 17:32:40,008 - root - CRITICAL - critical，用来打印一些致命的错误信息，等级最高-test_case_01
+2023-11-10 17:32:40,032 - root - ERROR - error，一般用来打印一些错误信息-test_case_01
+2023-11-10 17:32:40,032 - root - CRITICAL - critical，用来打印一些致命的错误信息，等级最高-test_case_01
+2023-11-10 17:33:13,843 - root - ERROR - error，一般用来打印一些错误信息-test_case_01
+2023-11-10 17:33:13,844 - root - CRITICAL - critical，用来打印一些致命的错误信息，等级最高-test_case_01
+2023-11-10 17:33:13,871 - root - ERROR - error，一般用来打印一些错误信息-test_case_01
+2023-11-10 17:33:13,871 - root - CRITICAL - critical，用来打印一些致命的错误信息，等级最高-test_case_01
+2023-11-10 17:34:17,378 - root - INFO - info，用来打印一些正常的操作信息-test_case_01
+2023-11-10 17:34:17,379 - root - INFO - info，用来打印一些正常的操作信息-test_case_01
+2023-11-10 17:34:17,379 - root - INFO - info，用来打印一些正常的操作信息-test_case_01
+2023-11-10 17:34:17,407 - root - INFO - info，用来打印一些正常的操作信息-test_case_01
+2023-11-10 17:34:17,408 - root - INFO - info，用来打印一些正常的操作信息-test_case_01
+2023-11-10 17:34:17,408 - root - INFO - info，用来打印一些正常的操作信息-test_case_01
+2023-11-10 17:35:07,427 - root - INFO - info，用来打印一些正常的操作信息-test_case_01
+2023-11-10 17:35:07,428 - root - INFO - info，用来打印一些正常的操作信息-test_case_01
+2023-11-10 17:35:07,428 - root - INFO - info，用来打印一些正常的操作信息-test_case_01
+2023-11-10 17:35:07,455 - root - INFO - info，用来打印一些正常的操作信息-test_case_01
+2023-11-10 17:35:07,456 - root - INFO - info，用来打印一些正常的操作信息-test_case_01
+2023-11-10 17:35:07,456 - root - INFO - info，用来打印一些正常的操作信息-test_case_01
+2023-11-10 17:37:26,748 - root - INFO - {'status': 10200, 'message': 'success', 'data': {'eid': 1, 'name': '导天帝', 'limit': 2000, 'status': True, 'address': '蒲公英', 'start_time': '2023-11-07T00:00:00'}}-test_case_01
+2023-11-10 17:37:26,748 - root - INFO - info，用来打印一些正常的操作信息-test_case_01
+2023-11-10 17:37:26,749 - root - INFO - {'status': 10200, 'message': 'success', 'data': {'eid': 1, 'name': '导天帝', 'limit': 2000, 'status': True, 'address': '蒲公英', 'start_time': '2023-11-07T00:00:00'}}-test_case_01
+2023-11-10 17:37:26,776 - root - INFO - {'status': 10200, 'message': 'success', 'data': {'eid': 2, 'name': '导天帝1', 'limit': 2000, 'status': True, 'address': '蒲公英', 'start_time': '2023-11-07T00:00:00'}}-test_case_01
+2023-11-10 17:37:26,777 - root - INFO - info，用来打印一些正常的操作信息-test_case_01
+2023-11-10 17:37:26,777 - root - INFO - {'status': 10200, 'message': 'success', 'data': {'eid': 2, 'name': '导天帝1', 'limit': 2000, 'status': True, 'address': '蒲公英', 'start_time': '2023-11-07T00:00:00'}}-test_case_01
